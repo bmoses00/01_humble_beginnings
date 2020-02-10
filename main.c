@@ -68,6 +68,10 @@ int main() {
   draw_line(340, 440, 280, 410, s, c);
   draw_line(240, 430, 280, 410, s, c);
 
+  c.red = 135;
+  c.green = 180;
+  c.blue = 180;
+
   // building 2
   draw_line(230, 310, 180, 330, s, c);
   draw_line(230, 310, 230, 400, s, c);
@@ -80,6 +84,10 @@ int main() {
   draw_line(200, 410, 240, 410, s, c);
   draw_line(230, 400, 240, 405, s, c);
 
+  c.red = 130;
+  c.green = 130;
+  c.blue = 130;
+
   // building 3
   draw_line(400, 220, 460, 250, s, c);
   draw_line(360, 240, 360, 320, s, c);
@@ -91,6 +99,20 @@ int main() {
   draw_line(400, 220, 400, 300, s, c);
   draw_line(400, 300, 360, 320, s, c);
   draw_line(400, 300, 440, 320, s, c);
+
+  c.red = 140;
+  c.green = 170;
+  c.blue = 210;
+  // building 4
+  draw_line(60, 170, 100, 190, s, c);
+  draw_line(60, 170, 20, 190, s, c);
+  draw_line(20, 190, 20, 280, s, c);
+  draw_line(100, 190, 100, 280, s, c);
+  draw_line(100, 280, 60, 300, s, c);
+  draw_line(60, 300, 20, 280, s, c);
+  draw_line(20, 280, 60, 260, s, c);
+  draw_line(60, 260, 100, 280, s, c);
+  draw_line(60, 170, 60, 260, s, c);
 
   // yellow street lines
 
@@ -107,6 +129,24 @@ int main() {
       if (x < 250 || x > 300)
           draw_line(x, y, x + 20, y - 10, s, c);
 
+  c.red = 0;
+  c.green = 0;
+  c.blue = 128;
+  // monument
+  draw_line(280, 60, 400, 120, s, c);
+  draw_line(400, 120, 280, 180, s, c);
+  draw_line(280, 180, 160, 120, s, c);
+  draw_line(160, 120, 280, 60, s, c);
+
+  draw_line(280, 60, 280, 120, s, c);
+  draw_line(400, 120, 320, 140, s, c);
+  draw_line(280, 180, 280, 160, s, c);
+  draw_line(160, 120, 240, 140, s, c);
+
+  draw_line(240, 140, 280, 120, s, c);
+  draw_line(280, 120, 320, 140, s, c);
+  draw_line(320, 140, 280, 160, s, c);
+  draw_line(280, 160, 240, 140, s, c);
 
   // display(s);
   // save_extension(s, "lines.png");
