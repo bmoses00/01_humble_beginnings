@@ -4,7 +4,6 @@ CC= gcc
 
 run: main
 	./main
-	eog ascii.ppm
 
 main: $(OBJECTS)
 	$(CC) -o main $(OBJECTS)

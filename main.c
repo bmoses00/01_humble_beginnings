@@ -49,9 +49,9 @@ int main() {
   draw_line(420, 330, 450, 345, s, c);
   draw_line(410, 335, 440, 350, s, c);
 
-  c.red = 164;
-  c.green = 173;
-  c.blue = 173;
+  c.red = 114;
+  c.green = 123;
+  c.blue = 123;
 
   // building 1
   draw_line(280, 280, 280, 410, s, c);
@@ -68,9 +68,9 @@ int main() {
   draw_line(340, 440, 280, 410, s, c);
   draw_line(240, 430, 280, 410, s, c);
 
-  c.red = 135;
-  c.green = 180;
-  c.blue = 180;
+  c.red = 85;
+  c.green = 130;
+  c.blue = 130;
 
   // building 2
   draw_line(230, 310, 180, 330, s, c);
@@ -84,9 +84,9 @@ int main() {
   draw_line(200, 410, 240, 410, s, c);
   draw_line(230, 400, 240, 405, s, c);
 
-  c.red = 130;
-  c.green = 130;
-  c.blue = 130;
+  c.red = 80;
+  c.green = 80;
+  c.blue = 80;
 
   // building 3
   draw_line(400, 220, 460, 250, s, c);
@@ -100,9 +100,9 @@ int main() {
   draw_line(400, 300, 360, 320, s, c);
   draw_line(400, 300, 440, 320, s, c);
 
-  c.red = 140;
-  c.green = 170;
-  c.blue = 210;
+  c.red = 90;
+  c.green = 120;
+  c.blue = 160;
   // building 4
   draw_line(60, 170, 100, 190, s, c);
   draw_line(60, 170, 20, 190, s, c);
@@ -148,7 +148,7 @@ int main() {
   draw_line(320, 140, 280, 160, s, c);
   draw_line(280, 160, 240, 140, s, c);
 
-  // display(s);
+  display(s);
   // save_extension(s, "lines.png");
   // save_ppm(s, "binary.ppm");
   save_ppm_ascii(s, "ascii.ppm");
